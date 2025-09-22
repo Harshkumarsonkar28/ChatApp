@@ -27,7 +27,7 @@ app.get('/', (req, res) => res.send("Hello"));
 // Socket.IO Setup
 
 const io = new Server(server, {
-  cors: { origin: "http://localhost:5173", methods: ['GET', 'POST'] },
+  cors: { origin: "https://chatapp-1-7k7d.onrender.com", methods: ['GET', 'POST'] },
   transports: ['websocket']
 });
 
