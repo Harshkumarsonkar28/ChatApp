@@ -7,7 +7,7 @@ import Message from '../components/Message';
 import MessageInput from '../components/MessageInput';
 
 
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://chatapp-zc3f.onrender.com';
 
 const ChatRoom = () => {
   const { roomName } = useParams();
